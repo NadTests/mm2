@@ -604,10 +604,10 @@ AutofarmSection:CreateToggle({
                             RunService.Stepped:Wait();
                             if not getgenv().Autofarm then break end;
                         until not coin:IsDescendantOf(Workspace) or coin.Name ~= "Coin_Server";
-                        task.wait(1.8);
+                        task.wait(0.5);
                     end;
                 else
-                    task.wait(1.5);
+                    task.wait(0.5);
                 end;
             end;
         else
