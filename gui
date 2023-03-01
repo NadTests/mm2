@@ -312,7 +312,7 @@ function WindowTable:CreateWindow(config)
 	wait(0.4)
 	_G.FewofiwegngreRG452 = LibName
 
-	local Title = config.Title or config.title or config.text or config.Text or "Made By Drifter!"
+	local Title = config.Title or config.title or config.text or config.Text or "Made By Nad#9969"
 
 	local screenGui = Instance.new("ScreenGui", game:GetService("CoreGui")) --game:GetService("CoreGui")
 
@@ -1388,7 +1388,7 @@ function WindowTable:CreateWindow(config)
 
 	OptionInstance.TextLabel_5.Parent = OptionInstance.Frame_13
 	OptionInstance.TextLabel_5.Font = Enum.Font.SourceSansSemibold
-	OptionInstance.TextLabel_5.Text = 'Made by Yax on v3rmillion.net (Drifter#0003 on Discord)'
+	OptionInstance.TextLabel_5.Text = 'Made by Nad#9969'
 	OptionInstance.TextLabel_5.TextColor3 = Color3.new(0.862745, 0.862745, 0.862745)
 	OptionInstance.TextLabel_5.TextSize = 18
 	OptionInstance.TextLabel_5.TextWrapped = true
